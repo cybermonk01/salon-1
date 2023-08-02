@@ -1,0 +1,25 @@
+.main {
+  background-color: #101426;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    .beauty-img {
+      width: 220px;
+      height: 160px;
+      position: relative;
+      bottom: 50px;
+      left: 60px;
+    }
+
+    .signin {
+      color: white;
+      padding-bottom: 40px;
+    }
+  }
+}

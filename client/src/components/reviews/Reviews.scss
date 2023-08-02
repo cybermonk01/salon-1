@@ -1,0 +1,33 @@
+.addForm {
+  display: flex;
+  flex-direction: column;
+
+  input {
+    padding: 20px;
+  }
+
+  select {
+    padding: 5px;
+    margin-top: 5px;
+    align-self: flex-end;
+    width: 100px;
+  }
+
+  button {
+    width: 200px;
+    gap: 5px;
+    align-self: flex-end;
+    border: none;
+    margin-top: 10px;
+    background-color: #1dbf73;
+    color: white;
+    padding: 10px;
+    align-items: flex-end;
+  }
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,166 @@
+.featured {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  background-color: #5d1427;
+  color: white;
+  // background-image: url("https://images.unsplash.com/photo-1517707711963-adf9078bdf01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  // background-color: #cccccc;
+  text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px,
+    rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px,
+    rgb(0, 0, 0) 0.705713px 2.91581px 0px,
+    rgb(0, 0, 0) -0.287171px 2.98622px 0px,
+    rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px,
+    rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px,
+    rgb(0, 0, 0) -2.94502px -0.571704px 0px,
+    rgb(0, 0, 0) -2.59586px -1.50383px 0px,
+    rgb(0, 0, 0) -1.96093px -2.27041px 0px,
+    rgb(0, 0, 0) -1.11013px -2.78704px 0px,
+    rgb(0, 0, 0) -0.137119px -2.99686px 0px,
+    rgb(0, 0, 0) 0.850987px -2.87677px 0px,
+    rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px,
+    rgb(0, 0, 0) 2.88051px -0.838247px 0px;
+
+  .container {
+    width: 1400px;
+    display: flex;
+    align-items: center;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      width: 1200px;
+      h1 {
+        font-size: 50px;
+
+        span {
+          font-style: italic;
+          font-weight: 300;
+        }
+      }
+
+      .search {
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+        box-shadow: rgb(0, 0, 0) 3px 0px 0px,
+          rgb(0, 0, 0) 2.83487px 0.981584px 0px,
+          rgb(0, 0, 0) 2.35766px 1.85511px 0px,
+          rgb(0, 0, 0) 1.62091px 2.52441px 0px,
+          rgb(0, 0, 0) 0.705713px 2.91581px 0px,
+          rgb(0, 0, 0) -0.287171px 2.98622px 0px,
+          rgb(0, 0, 0) -1.24844px 2.72789px 0px,
+          rgb(0, 0, 0) -2.07227px 2.16926px 0px,
+          rgb(0, 0, 0) -2.66798px 1.37182px 0px,
+          rgb(0, 0, 0) -2.96998px 0.42336px 0px,
+          rgb(0, 0, 0) -2.94502px -0.571704px 0px,
+          rgb(0, 0, 0) -2.59586px -1.50383px 0px,
+          rgb(0, 0, 0) -1.96093px -2.27041px 0px,
+          rgb(0, 0, 0) -1.11013px -2.78704px 0px,
+          rgb(0, 0, 0) -0.137119px -2.99686px 0px,
+          rgb(0, 0, 0) 0.850987px -2.87677px 0px,
+          rgb(0, 0, 0) 1.74541px -2.43999px 0px,
+          rgb(0, 0, 0) 2.44769px -1.73459px 0px,
+          rgb(0, 0, 0) 2.88051px -0.838247px 0px;
+
+        .searchInput {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          img {
+            width: 20px;
+            height: 20px;
+            margin: 10px;
+          }
+
+          input {
+            border: none;
+            outline: none;
+
+            &::placeholder {
+              color: gray;
+            }
+          }
+        }
+
+        button {
+          width: 120px;
+          height: 50px;
+          border: none;
+          background-color: #1dbf73;
+          color: white;
+          align-self: flex-end;
+          cursor: pointer;
+          box-shadow: rgb(0, 0, 0) 3px 0px 0px,
+            rgb(0, 0, 0) 2.83487px 0.981584px 0px,
+            rgb(0, 0, 0) 2.35766px 1.85511px 0px,
+            rgb(0, 0, 0) 1.62091px 2.52441px 0px,
+            rgb(0, 0, 0) 0.705713px 2.91581px 0px,
+            rgb(0, 0, 0) -0.287171px 2.98622px 0px,
+            rgb(0, 0, 0) -1.24844px 2.72789px 0px,
+            rgb(0, 0, 0) -2.07227px 2.16926px 0px,
+            rgb(0, 0, 0) -2.66798px 1.37182px 0px,
+            rgb(0, 0, 0) -2.96998px 0.42336px 0px,
+            rgb(0, 0, 0) -2.94502px -0.571704px 0px,
+            rgb(0, 0, 0) -2.59586px -1.50383px 0px,
+            rgb(0, 0, 0) -1.96093px -2.27041px 0px,
+            rgb(0, 0, 0) -1.11013px -2.78704px 0px,
+            rgb(0, 0, 0) -0.137119px -2.99686px 0px,
+            rgb(0, 0, 0) 0.850987px -2.87677px 0px,
+            rgb(0, 0, 0) 1.74541px -2.43999px 0px,
+            rgb(0, 0, 0) 2.44769px -1.73459px 0px,
+            rgb(0, 0, 0) 2.88051px -0.838247px 0px;
+        }
+      }
+
+      .popular {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        span {
+          width: max-content;
+        }
+
+        button {
+          width: max-content;
+          color: white;
+          border: 1px solid white;
+          padding: 5px 10px;
+          border-radius: 20px;
+          background-color: transparent;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .right {
+      height: 100%;
+      padding-left: 40px;
+      width: 50%;
+      img {
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .featured {
+    height: 400px;
+
+    .container {
+      height: 400px;
+      width: 500px;
+
+      .left {
+        display: none;
+      }
+    }
+  }
+}
