@@ -69,7 +69,7 @@ function Footer() {
         <div className="bottom">
           <div className="left">
             <h2>salonn</h2>
-            <span>© Jamesons Info Solutions Pvt. Ltd. 2023</span>
+            <span>© Made with ❤️ in India </span>
           </div>
           <div className="right">
             <div className="social">

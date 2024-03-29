@@ -99,7 +99,3 @@ function App() {
 }
 
 export default App;
-
-// 295327815934 - oge4k679qh2k4n341aur8bp4ej01o9hl.apps.googleusercontent.com;
-
-// secret - GOCSPX - LUT_wq7vzKdi45Lx4sguRdDeKKGZ;

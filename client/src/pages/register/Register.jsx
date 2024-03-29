@@ -1,10 +1,12 @@
 import { GoogleLogin } from "@react-oauth/google";
 import { decodeJwt } from "jose";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import newRequest from "../../utils/newRequest";
 import "./Register.scss";
 
 function Register() {
+  const navigate = useNavigate();
   return (
     <div className="main">
       <div className="content">
@@ -31,6 +33,7 @@ function Register() {
                   },
                 })
                 .then((response) => console.log(response.data))
+                .then(() => navigate("/"))
                 .catch((err) => console.log(err));
             }
           }}

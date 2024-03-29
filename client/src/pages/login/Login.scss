@@ -1,33 +1,122 @@
-.login {
-  height: 100vh;
+// .login {
+//   height: 100vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+
+//   form {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+
+//     input {
+//       width: 200px;
+//       height: 30px;
+//       margin: 10px;
+//     }
+
+//     button {
+//       width: 200px;
+//       height: 30px;
+//       border: none;
+//       background-color: purple;
+//       color: white;
+//       cursor: pointer;
+//     }
+
+//     span {
+//       font-size: 12px;
+//       color: red;
+//       margin-top: 10px;
+//     }
+//   }
+// }
+
+.login-container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .login-content {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
 
-    input {
-      width: 200px;
-      height: 30px;
-      margin: 10px;
+    .login-header {
+      text-align: center;
+      margin-bottom: 20px;
+
+      .login-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .login-description {
+        font-size: 14px;
+        color: #666;
+      }
     }
 
-    button {
-      width: 200px;
-      height: 30px;
-      border: none;
-      background-color: purple;
-      color: white;
-      cursor: pointer;
-    }
+    .login-form {
+      .login-form-group {
+        margin-bottom: 20px;
 
-    span {
-      font-size: 12px;
-      color: red;
-      margin-top: 10px;
+        .login-input-wrapper {
+          label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            font-weight: bold;
+          }
+
+          .login-input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            outline: none;
+          }
+        }
+
+        .flex {
+          justify-content: space-between;
+        }
+
+        .login-forgot-password {
+          font-size: 12px;
+          color: blue;
+        }
+
+        .login-btn {
+          width: 100%;
+          padding: 10px;
+          background-color: blue;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: darkblue;
+          }
+        }
+
+        .login-link {
+          font-size: 14px;
+          color: blue;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
     }
   }
 }

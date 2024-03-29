@@ -55,7 +55,9 @@ function Navbar() {
           <Link className="link" to="/gigs">
             salonn
           </Link>
-          <span>Explore</span>
+          <Link className="link" to="/gigs">
+            <span>Explore</span>
+          </Link>
           <span>English</span>
           {!currentUser?.isSeller && <span>Become a Seller</span>}
           {currentUser ? (
@@ -88,7 +90,9 @@ function Navbar() {
             </div>
           ) : (
             <>
-              <span>Sign in</span>
+              <Link className="link" to="/login">
+                <span>Sign in</span>
+              </Link>
               <Link className="link" to="/register">
                 <button>Join</button>
               </Link>
@@ -100,25 +104,25 @@ function Navbar() {
         <>
           <hr />
           <div className="menu">
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs">
               Men's Salon
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs">
               Women's Salon
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs">
               Beauty Men
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs">
               Beauty Women
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs">
               Wedding Photography
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs">
               Professional Makeup
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs">
               Makeup tutorials
             </Link>
             <Link className="link menuLink" to="/">

@@ -14,7 +14,6 @@ function Gigs() {
   const maxRef = useRef();
 
   const { search } = useLocation();
-  console.log();
 
   const { isLoading, error, data, refetch } = useQuery({
     queryKey: ["gigs"],
